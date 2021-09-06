@@ -3,6 +3,9 @@ import './App.css';
 import Header from './Header.js';
 import Intro from './Intro.js';
 import Featured from './Featured.js';
+import Pricing from './Pricing.js';
+import About from './About.js';
+import "./Style.css";
 
 function App() {
   return (
@@ -10,6 +13,7 @@ function App() {
       <Header></Header>
       <Intro></Intro>
      <Featured></Featured>
+     <Pricing></Pricing>
     </div>
   );
 }

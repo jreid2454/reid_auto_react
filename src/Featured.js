@@ -11,9 +11,9 @@ export default class Featured extends React.Component{
             <div style={styles.wrapper}>
                 <p style={styles.header}>Get the Best Quality for the Best Price</p>
                 <div style={styles.features}>
-                <Feature></Feature>
-                <Feature></Feature>
-                <Feature></Feature>
+                <Feature type={'brakes'}></Feature>
+                <Feature type={'tires'}></Feature>
+                <Feature type={'oil'}></Feature>
                 </div>
             </div>
         )
@@ -21,7 +21,7 @@ export default class Featured extends React.Component{
 }
 
 const styles = {
-    wrapper: {marginTop: '495px', width: '100%', height: '500px', backgroundColor: '#121212d9', paddingTop: '20px'},
+    wrapper: {marginTop: '495px', width: '100%', height: '400px', backgroundColor: '#121212d9', paddingTop: '20px'},
     header: {color: 'white', fontSize: '4vh'},
     features: {display: 'flex'}
 }

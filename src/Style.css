@@ -1,0 +1,30 @@
+#introWrapper{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    /* background: url('./images/intro.jpg');
+    background-image: contain; */
+}
+body{
+    height: 100vh;
+}
+
+#brakes{
+    background-image: url('/src/components/images/brakes.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tires{
+    background-image: url('/src/components/images/tire_rotation.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#oil{
+    background-image: url('/src/components/images/oil_change.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
