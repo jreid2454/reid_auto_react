@@ -32,14 +32,12 @@ export default class Feature extends React.Component{
     
     componentDidMount(){
         this.check();
-        console.log('this is id: ' + this.state.id)
     }
 
     render(){
 
         return(
             <div id={this.state.id} style={styles.wrapper}>
-                {/* <img style={styles.img} src={Brakes}/> */}
                 <p>{this.state.type}</p>
                 <p>{this.state.price}</p>
             </div>

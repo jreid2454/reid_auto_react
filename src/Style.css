@@ -28,3 +28,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.price_item:hover{
+    color: #3838ff;
+}
