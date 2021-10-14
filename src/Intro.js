@@ -13,7 +13,7 @@ export default class Intro extends React.Component{
                  <p style={styles.title}>Reid's Auto Service</p>
                  <hr style={styles.hr}></hr>
                  <p style={styles.subTitle}>Keeping Philly on the Road Since 2009</p>
-                 <button style={styles.visit}>Visit Us</button>
+                 <button style={styles.visit}><a class='aTag' href='https://goo.gl/maps/NJGVVyGhAQNLM7Yk6'>Visit Us</a></button>
                  <p style={styles.or}>OR</p>
                  <div style={styles.options}>
                      <p><a class='aTag' href='tel:2154796715'><i class="fas fa-phone"></i></a></p>
@@ -26,9 +26,9 @@ export default class Intro extends React.Component{
 }
 
 const styles = {
-    wrapper: {width: '100%', height: '600px', margin: "0 0 0 0", padding: 0, overflow: 'hidden', position: 'absolute', top: '0', zIndex: '-20'},
+    wrapper: {width: '100%', height: '600px', margin: "0 0 0 0", padding: 0, overflow: 'hidden', position: 'absolute', top: '0', zIndex: '1'},
     img: {width: '100%', margin: 0, padding: 0},
-    overlay: {width: "100%", height: '600px', backgroundColor: 'rgba(0,0,0,.5)', position: 'absolute', top: 0},
+    overlay: {width: "100%", height: '600px', backgroundColor: 'rgba(0,0,0,.5)', position: 'absolute', top: 0, zIndex: '5'},
     title: {marginTop: '200px', color: 'white', fontSize: '4vh', marginLeft: '-300px', marginBottom: 0},
     subTitle: {color: 'white', marginTop: 0, marginRight: '-200px'},
     hr: {color: 'white', width: '50%', marginTop: 0},

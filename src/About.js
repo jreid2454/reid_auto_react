@@ -17,7 +17,7 @@ export default class About extends React.Component{
                     certification. In 2009 we opened up Reid's Auto Service and have continued to bring quality service 
                     and products to our customers.
                     <br/><br/>
-                    Us here at Reid's Auto are happy to be able to give back to South Philly by offering affordable 
+                    We here at Reid's Auto are happy to be able to give back to South Philly by offering affordable 
                     car maintenance and repair that you can count on. Many of our customers come to us after going to the 
                     dealership 4-6 times with no success, while we are able to have them back on the road after the first 
                     vist! So skip the hassle and save your time and money, and visit Reid's Auto Service today!

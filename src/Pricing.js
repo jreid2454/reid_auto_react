@@ -11,6 +11,7 @@ export default class Pricing extends React.Component{
     full_list = ['Cabin Filter - $45', 'Throttle Body Service with Air Filters - $54.95', 'Coolant Service - $39.95', 'State Inspection - $85', 'Oil Change 5 Qrts - $36.95', 'Synthetic Oil Change 5 Qrts - $70', 'Brakes and Rotors - $290 per Axle', 'Tire Rotation (Car) - $20', 'Tire Rotation (Truck) - $25', 'Balance Tires (2) - $29.99', 'Turn Signal Bulb - $16', 'Headlight Bulb - $48.50', 'Electrical Diagnosis - $85', 'A/C Charge - $90'];
     
     getList = (prices) =>{
+        prices = prices.sort();
         let list = prices.map((item)=>{
             return <li class="price_item" style={styles.li}><p style={styles.p}>{item}</p></li>;
         })

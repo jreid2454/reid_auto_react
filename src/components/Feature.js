@@ -50,5 +50,5 @@ export default class Feature extends React.Component{
 const styles = {
     wrapper: {width: '33.3%', height: '300px', border: '1px solid #3838ff', color: 'white', margin: '0', padding: '0'},
     img: {width: '33.3%', heighta: '300px', position: 'absolute', margin: '0'},
-    shade: {backgroundColor: 'rgba(56, 56, 255,0)',width: "100%", height: '100%', margin: '0', padding: '0'}
+    shade: {width: "100%", height: '100%', margin: '0', padding: '0', position: 'relative', bottom: '16px'}
 }
