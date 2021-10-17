@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Feature from './components/Feature.js';
 
 export default class Featured extends React.Component{
@@ -8,9 +7,9 @@ export default class Featured extends React.Component{
     render(){
 
         return(
-            <div style={styles.wrapper}>
+            <div id="featureWrapper" style={styles.wrapper}>
                 <p style={styles.header}>Get the Best Quality for the Best Price</p>
-                <div style={styles.features}>
+                <div id="features" style={styles.features}>
                 <Feature type={'brakes'}></Feature>
                 <Feature type={'tires'}></Feature>
                 <Feature type={'oil'}></Feature>

@@ -1,8 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-// import Oil_change from './images/oil_change.jpg';
-// import Tire_rotation from './images/tire_rotation.jpg';
-// import Brakes from './images/brakes.jpg';
 
 export default class Feature extends React.Component{
     constructor(props){

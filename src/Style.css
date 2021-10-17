@@ -8,11 +8,19 @@ body{
     overflow: hidden;
     position: absolute;
     top: 0;
-    /* background: url('./images/intro.jpg');
-    background-image: contain; */
 }
 body{
     height: 100vh;
+}
+
+button:hover{
+    background-color: rgba(56, 56, 255, 0.5) !important;
+}
+
+img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 #brakes{
@@ -66,4 +74,47 @@ body{
 .aTag{
     text-decoration: none;
     color: inherit;
+}
+
+.aTag:hover{
+    color: rgb(56, 56, 255);
+}
+
+@media only screen and (max-width: 960px){
+    #title{
+        font-size: 3.5vh !important;
+    }
+    img{
+        min-width: 150%;
+        max-width: 300%;
+        min-height: 150%;
+        max-height: 300%;
+        margin: 0;
+        padding: 0;
+    }
+
+    hr{
+        width: 70% !important;
+    }
+
+    #featureWrapper{
+        height: 1000px !important;
+    }
+    #features{
+        flex-direction: column;
+    }
+    .feature{
+        width: 100% !important;
+    }
+    #about{
+        height: 100vh !important;
+    }
+    #footer{
+        flex-direction: column !important;
+        height: 70vh !important;
+    }
+    #footer iframe{
+        margin-left: 10vw !important;
+    }
+
 }

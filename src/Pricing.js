@@ -46,7 +46,7 @@ export default class Pricing extends React.Component{
 
 const styles = {
     wrapper: {width: '100%', height: '400px', backgroundColor: '#121212d9', paddingTop: '40px'},
-    input: {left: 100, position: 'absolute', fontSize: '2vh', width: '250px', height: '30px', borderRadius: "25px", paddingLeft: '20px', outline: 'none'},
+    input: {left: '10vw', position: 'absolute', fontSize: '2vh', width: '250px', height: '30px', borderRadius: "25px", paddingLeft: '20px', outline: 'none'},
     ul: {listStyleType: 'none', width: '70%', height: '350px', overflow: 'auto', margin: 'auto', color: 'white'},
     li: {fontSize: '3vh', width: '100%', height: '90px', borderBottom: '1px groove black'},
     p: {marginTop: '50px'}
