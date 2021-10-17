@@ -6,7 +6,7 @@ export default class Footer extends React.Component{
     render(){
 
         return(
-            <div style={styles.wrapper}>
+            <div id='footer' style={styles.wrapper}>
                 <div style={styles.left}>
                     <p style={styles.p}>Reid's Auto Service</p>
                     <p style={styles.p}>Phone: <a style={styles.a} href='tel:2154796715'>(215) 479-6715</a></p>
@@ -23,7 +23,7 @@ export default class Footer extends React.Component{
 
 const styles = {
     wrapper: {display: 'flex',justifyContent: 'space-between',paddingBottom: '50px',width: '100%', height: '200px', backgroundColor: '#121212e6', paddingTop: '10px', borderTop: '1px groove rgb(56, 56, 255)'},
-    left: {color: 'white', margin: '0 0 0 40px', display: 'flex', flexDirection: 'column'},
+    left: {color: 'white', margin: '0 0 0 5vw', display: 'flex', flexDirection: 'column'},
     right: {color: 'white', margin: '30px 200px 0 0'},
     p: {alignSelf: 'flex-start'},
     map: {width: "400",height: "300", border:"0"},

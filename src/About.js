@@ -6,7 +6,7 @@ export default class About extends React.Component{
     render(){
 
         return(
-            <div style={styles.wrapper}>
+            <div id="about" style={styles.wrapper}>
                 <div>
                     <p style={styles.header}>About Us</p>
                 </div>
@@ -31,5 +31,5 @@ export default class About extends React.Component{
 const styles = {
     wrapper: {width: '100%', height: '400px', backgroundColor: '#121212d9', paddingTop: '10px', borderTop: '1px groove rgb(56, 56, 255)'},
     header: {fontSize: '4vh', color: 'yellow'},
-    p: {fontSize: '3vh', color: 'white', padding: '10px 100px 0 100px'}
+    p: {fontSize: '3vh', color: 'white', padding: '10px 10vw 0 10vw'}
 }
