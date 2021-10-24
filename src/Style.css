@@ -11,6 +11,8 @@ body{
 }
 body{
     height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 button:hover{
@@ -81,14 +83,17 @@ img{
 }
 
 @media only screen and (max-width: 960px){
+    #headerIcons{
+        display: none !important;
+    }
     #title{
-        font-size: 3.5vh !important;
+        font-size: 4vh !important;
     }
     img{
-        min-width: 150%;
-        max-width: 300%;
-        min-height: 150%;
-        max-height: 300%;
+        min-width: 200%;
+        max-width: 200%;
+        min-height: 100%;
+        max-height: 150%;
         margin: 0;
         padding: 0;
     }
@@ -107,14 +112,14 @@ img{
         width: 100% !important;
     }
     #about{
-        height: 100vh !important;
+        height: 115vh !important;
     }
     #footer{
         flex-direction: column !important;
-        height: 70vh !important;
+        height: 60vh !important;
     }
-    #footer iframe{
-        margin-left: 10vw !important;
+    #footerR{
+        margin: 30px 0px 0 0 !important;
     }
 
 }
