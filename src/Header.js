@@ -9,7 +9,7 @@ export default class Header extends React.Component{
         return(
             <div style={styles.wrapper}>
                 <p id='title' style={styles.title}>Reid's Auto Service</p>
-                <div style={styles.wrapper1}>
+                <div id="headerIcons" style={styles.wrapper1}>
                     <p style={styles.option1}><a class='aTag' href='https://goo.gl/maps/NJGVVyGhAQNLM7Yk6' target="_blank"><i class="far fa-compass"></i></a></p>
                     <p style={styles.option2}><a class='aTag' href='tel:2154796715'><i class="fas fa-phone"></i></a></p>
                 </div>

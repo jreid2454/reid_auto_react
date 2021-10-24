@@ -28,7 +28,7 @@ const styles = {
     wrapper: {width: '100%', height: '600px', margin: "0 0 0 0", padding: 0, overflow: 'hidden', position: 'absolute', top: '0', zIndex: '1'},
     overlay: {width: "100%", height: '600px', backgroundColor: 'rgba(0,0,0,.5)', position: 'absolute', top: 0, zIndex: '5'},
     title: {marginTop: '200px', color: 'white', fontSize: '4vh', marginLeft: '-25vw', marginBottom: 0},
-    subTitle: {color: 'white', marginTop: 0, marginRight: '-15vw', fontSize: '2.5vh'},
+    subTitle: {color: 'white', marginTop: 0, marginRight: '-12vw', fontSize: '2.5vh'},
     hr: {color: 'white', width: '50%', marginTop: 0},
     visit: {border: '1px groove #3838ff', color: 'yellow', backgroundColor: 'rgba(0,0,0,0.5)', width: '200px', height: '75px', padding: '25px', fontSize: '3.5vh', fontFamily: 'sans-serif', marginTop: '50px', borderRadius: '50px'},
     or: {color: 'white', fontSize: '2vh'},
